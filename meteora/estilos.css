@@ -6,6 +6,10 @@
     width: 325px;
 }
 
+.div-novidades {
+    width: 325px;
+}
+
 .botao-lilas {
     background-color: #9353FF;
 }
@@ -14,12 +18,10 @@
     color: #DAFF01;
 }
 
-.posicao{
-    top: 40%;
-}
+@media(min-width: 768px) {
 
-@media(max-width: 767px){
-    .posicao{
-        top:60%;
+    .div-novidades {
+        width: 696px;
     }
+
 }
